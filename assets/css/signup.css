@@ -1,0 +1,46 @@
+body{
+    background-color: midnightblue;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.container{
+    height: 60vh;
+    width: 100vw;
+    border: 1px solid white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .main-container{
+    height: 40vh;
+    width: 40vw;
+    padding-top: 1rem;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+.container .main-container form input{
+    display: block;
+    font-size: 1.3rem;
+    border: 1px solid grey;
+    border-radius: 0.8rem;
+    outline: 0;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    background: transparent;
+    background-color: midnightblue;
+    color: white;
+}
+.container .main-container form button{
+   font-size: 1.5rem;
+   border-radius: 0.8rem;
+   background: linear-gradient(135deg , violet,blue);
+   color: white;
+   font-family: serif;
+   margin-left: 5rem;
+}
